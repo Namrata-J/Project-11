@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    background-image: url(../images/birthday.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.outer-div{
+    width: 90%;
+    margin: auto;
+    margin-top: 3rem;
+    background-color: rgba(240, 230, 230, 0.7);
+    border-radius: 2rem;
+}
+.container{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+}
+h1{
+    padding-top: 2rem;
+    text-align: center;
+    color: rgb(18, 107, 112);
+}
+label, input, button{
+    display: block;
+    text-align: center;
+}
+label{
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(139, 37, 88);
+    margin-top: 2rem;
+}
+input{
+    width: 100px;
+    margin: auto;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    margin-top: 0.5rem;
+}
+button{
+    width: 90px;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+}
+button:hover{
+    background-color: rgb(226, 73, 73);
+}
+.result{
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+    background-color: rgba(240, 230, 230, 0.7);
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.output-inside-div{
+    padding: 2rem 0rem;
+    width: 80%;
+    margin: auto;
+}
+output{
+    display: block;
+    text-align: center;
+    color: rgb(35, 72, 107);
+}
+footer{
+    background-color: rgba(39, 34, 34, 0.7);
+    margin-top: 6rem;
+    height: 100px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+footer p{
+    text-align: center;
+    padding-top: 2rem;
+    color: rgb(250, 248, 242);
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
